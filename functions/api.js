@@ -6,7 +6,7 @@ const app = express();
 const router = express.Router();
 
 app.set('view engine', 'ejs');
-
+app.set('views', __dirname + '/views');
 app.engine('ejs', require('ejs').__express);
 
 const data = require('../Controller/controller.api.data')
