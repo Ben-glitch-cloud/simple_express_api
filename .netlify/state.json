@@ -1,0 +1,19 @@
+{
+	"geolocation": {
+		"data": {
+			"city": "Orpington",
+			"country": {
+				"code": "GB",
+				"name": "United Kingdom"
+			},
+			"subdivision": {
+				"code": "ENG",
+				"name": "England"
+			},
+			"timezone": "Europe/London",
+			"latitude": 51.381,
+			"longitude": 0.115
+		},
+		"timestamp": 1690886563412
+	}
+}
