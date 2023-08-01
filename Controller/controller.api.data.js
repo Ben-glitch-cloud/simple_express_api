@@ -2,15 +2,15 @@
 // All funaction are currenty holding dummy data
 
 function DummyData(){
-    return {'path': 'Home', 'firstName': 'Ben', 'lastName': 'Lawrence'}
+    return {'path': 'Home', 'firstName': 'Tom', 'lastName': 'Smith'}
 }
 
 function AboutDummyData(){
     return {'path': 'About', 
-    'Info': 'More data', 
-    'More info': 'More data to come'}
+    'pageHeading': 'Building an app', 
+    'purpose': 'The app will display basic data to the user'}
 }
 
 module.exports = { DummyData, AboutDummyData };
 
-//module.exports.DummyData = DummyData; < exports rather than export
+
